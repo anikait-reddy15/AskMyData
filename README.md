@@ -24,10 +24,3 @@ This Streamlit app lets users upload CSV datasets and ask natural language data 
 - python-dotenv for managing API keys securely
 
 ---
-
-## Setup Instructions
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/gemini-secure-data-analyst.git
-cd gemini-secure-data-analyst
