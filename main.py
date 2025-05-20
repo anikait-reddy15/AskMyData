@@ -107,7 +107,7 @@ Valid outputs should assign result to one of:
                         st.subheader("Computed Value")
                         st.write(safe_locals["output_value"])
 
-                    # Only show plot if question suggests visualization
+                    # Only show plot if input question suggests visualization
                     visual_keywords = ["plot", "graph", "chart", "visual", "trend", "distribution", "bar", "line", "scatter", "histogram"]
                     if any(keyword in user_question.lower() for keyword in visual_keywords):
                         st.subheader("Visualization")
